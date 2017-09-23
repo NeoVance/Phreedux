@@ -1,0 +1,34 @@
+{
+    "name": "neovance/phredux",
+    "description": "A flux implementation for PHP inspired by the javascript library redux.",
+    "version": "0.0.1",
+    "keywords": [
+        "redux",
+        "flux",
+        "store",
+        "state"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devon Bagley",
+            "email": "devonbagley@gmail.com",
+            "homepage": "http://example.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "NeoVance\\Phredux\\": "src/" }
+    },
+    "require": {
+        "equip/structure": "^1.1",
+        "qaribou/immutable.php": "^1.1",
+        "react/event-loop": "^0.4.3",
+        "reactivex/rxphp": "^2.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.3",
+        "codeception/specify": "^0.4.6",
+        "codeception/verify": "^0.3.3"
+    }
+}
